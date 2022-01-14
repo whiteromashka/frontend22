@@ -1,0 +1,24 @@
+.target
+{
+    box-sizing: border-box;
+    height: 400px;
+    width: 1000px;
+    margin-top: 60px;
+    background: #8d8a84;
+    box-shadow: #e0d3bb -60px -60px 10px 10px;
+    transition: 400ms;
+}
+.target1
+{
+    box-sizing: border-box;
+    height: 150px;
+    width: 800px;
+    margin-top: 10px;
+    background: #ffffff;
+    color: #27292a;
+    font-weight: bold;
+    font-size: 25px;
+    border-left: 4px solid #ad2727;
+    padding-left: 20px;
+
+}

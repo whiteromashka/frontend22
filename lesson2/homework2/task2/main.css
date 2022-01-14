@@ -1,0 +1,79 @@
+body
+{
+    margin: 0;
+    background: #e6ebee;
+}
+.A-square
+.B-square
+.C-square
+.D-square
+.E-square
+.F-square
+{box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    background: #f3aa20;
+
+
+}
+.A-square {
+
+    height: 200px;
+    width: 200px;
+    background: #f3aa20;
+
+    margin: 25px;
+
+    box-shadow: #27292a 15px 15px 20px 10px;
+    transition: 50ms;
+
+}
+.B-square
+{
+    height: 200px;
+    width: 200px;
+    background: #f3aa20;
+    margin: 25px;
+    box-shadow: #27292a 15px 15px 20px 10px;
+    transition: 10ms;
+}
+.C-square
+{
+    height: 200px;
+    width: 200px;
+    background: #f3aa20;
+    margin: 25px;
+    box-shadow: #27292a 25px 15px 20px 10px;
+    transition: 50ms;
+}
+.D-square
+{
+    height: 200px;
+    width: 200px;
+    background: #f3aa20;
+    margin: 25px;
+    box-shadow: #8d8a84 25px 15px 20px 10px;
+    transition: 100ms;
+}
+.E-square
+{
+    height: 200px;
+    width: 200px;
+    background: #f3aa20;
+    margin: 25px;
+    box-shadow: #090909 15px 15px 20px 10px;
+    transition: 50ms;
+    border-radius: 10px;
+}
+.F-square
+{
+    height: 200px;
+    width: 200px;
+    background: #f3aa20;
+    display: flex;
+    margin: 25px;
+    align-content: center;
+    justify-content: center;
+    box-shadow: #787d80 15px 15px 20px 10px;
+    border-radius: 10px;
+}

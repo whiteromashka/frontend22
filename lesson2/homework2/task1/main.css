@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+}
+.one {
+    text-align: center;
+    background: #ad2727;
+    height: 50px;
+    color: #e1e7ec;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.two{
+    height: 80px;
+    background: #c0c6cb;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+.three  {
+    height: 90px;
+    background: #2a79bb;
+    margin: 0;
+    padding:20px 0px;
+}
+.four {
+    height: 280px;
+    width:280px ;
+    background: #105408;
+    margin: 0;
+}
+.five {
+    height: 280px;
+    width:280px ;
+    background: #b118da;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+.body   {
+    background: #27292a;
+}
+
+}
+.A-square
+.B-square
+.C-square
+.D-square
+{
+    height: 200px;
+    width: 200px;
+    background: #f3aa20;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
