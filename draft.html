@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        .block {
+            background: grey;
+            display: flex;
+            height: 250px;
+        }
+
+        .column {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .column.col {
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+
+        .column.col div {
+            flex: 1;
+            border: 1px solid black;
+        }
+
+        .column.row div {
+            border: 1px solid black;
+            flex-basis: 50%;
+            height: 25%;
+        }
+
+        .column.row .box_long {
+            height: 50%;
+            flex-basis: 100%;
+        }
+
+        .box_long {
+            background-color: pink;
+        }
+
+        .box_small {
+            background-color: blue;
+        }
+
+        .box_big {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+
+<div class="block">
+
+    <div class="column col">
+        <div class="box_long">
+        </div>
+        <div class="box_big">
+        </div>
+    </div>
+
+    <div class="column row">
+        <div class="box_small">
+        </div>
+        <div class="box_small">
+        </div>
+        <div class="box_small">
+        </div>
+        <div class="box_small">
+        </div>
+        <div class="box_long">
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
+

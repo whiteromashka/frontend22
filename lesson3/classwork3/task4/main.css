@@ -30,14 +30,17 @@
     width: 1900px;
     height: 1500px;
 }
-/*.container4*/
-/*{*/
-/*    background: #e6ebee;*/
-/*    display: flex;*/
-/*    margin: ;*/
-/*    flex-wrap: wrap;*/
-/*    justify-content: center;*/
-/*}*/
+.contaier4> div {
+    display: flex;
+}
+.container4
+{
+    background: #e6ebee;
+    display: flex;
+    margin: ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 /*.container5 {*/
 /*    background: #e6ebee;*/
 /*    display: flex;*/
