@@ -1,0 +1,60 @@
+.container1 {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    color: aliceblue;
+    background: #313177;
+    justify-content: center;
+    margin: 20px;
+    font-size: 300%;
+
+}
+.container2
+{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    color: aliceblue;
+    background: #313177;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 300%;
+
+
+}
+.container3
+{   box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    color: aliceblue;
+    background: #2323e8;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 300%;
+
+}
+
+.Home, .About {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    border: 3px solid #fff;
+    justify-content: center;
+
+}
+.Shishkabobs, .BBQ, .Summer
+{
+    display: flex;
+    height: 100%;
+    width: 34%;
+    align-items: center;
+    border: 3px solid #fff;
+    justify-content: center;
+
+}
