@@ -60,11 +60,11 @@
 }
 .A {
     box-sizing: border-box;
-    width: 1900px;
+    width: 1885px;
     height: 780px;
     /*flex-basis: 30px;*/
     background: #dadce0;
-    margin: 20px;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,7 @@
 
 .B {
     width: 1350px;
-    height: 780px;
+    height: 1550px;
     background: #dadce0;
     margin:10px;
     display: flex;
@@ -87,8 +87,8 @@
 }
 
 .C {
-    width: 440px;
-    height: 780px;
+    width: 610px;
+    height: 680px;
     background: #dadce0;
     display: flex;
     justify-content: center;
@@ -100,8 +100,8 @@
 }
 
 .D {
-    width: 440px;
-    height: 780px;
+    width: 610px;
+    height: 680px;
     background: #dadce0;
     margin:10px;
     display: flex;
@@ -112,8 +112,8 @@
 }
 
 .E {
-    width: 440px;
-    height: 780px;
+    width: 620px;
+    height: 680px;
     background: #dadce0;
     margin: 10px;
     display: flex;
@@ -124,15 +124,15 @@
 }
 
 .F {
-    width: 440px;
+    width: 510px;
     height: 1550px;
     background: #dadce0;
-    margin:20px;
+    margin:10px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     font-size: 500%;
     flex-wrap: wrap;
-    align-self: start;
+
 
 }
