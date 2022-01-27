@@ -1,0 +1,133 @@
+#container, #container2, #container3 {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+/*.a {*/
+/*    box-sizing: border-box;*/
+/*    width: 1300px;*/
+/*    height: 200px;*/
+/*    flex-basis: 30px;*/
+/*    background: #e8dfb0;*/
+/*    margin: 5px;*/
+/*    border: 1px solid black;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    font-size: 300%;*/
+
+/*}*/
+
+/*.b {*/
+/*    width: 300px;*/
+/*    height: 1000px;*/
+/*    background: #e3acb6;*/
+/*    margin: 5px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    border: 1px solid black;*/
+/*    font-size: 300%;*/
+/*}*/
+
+/*.c {*/
+/*    width: 955px;*/
+/*    height: 500px;*/
+/*    background: #82c9e7;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    border: 1px solid black;*/
+/*    font-size: 300%;*/
+/*    margin: 5 px;*/
+
+/*}*/
+
+/*.d {*/
+/*    width: 955px;*/
+/*    height: 500px;*/
+/*    background: #82c9e7;*/
+/*    margin: 5px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    border: 1px solid black;*/
+/*    font-size: 300%;*/
+/*}*/
+
+/*.e {*/
+/*    width: 1300px;*/
+/*    height: 200px;*/
+/*    background: #e8dfb0;*/
+/*    margin: 5px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    border: 1px solid black;*/
+/*    font-size: 300%;*/
+/*}*/
+
+/*#container1>div {*/
+/*    margin-right: ;*/
+/*    margin-left:10px ;*/
+/*}*/
+.mar {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.bg-yel {
+    background: #f6c360;
+}
+.bg-bl {
+    background: #82c9e7;
+}
+.bg-pi{
+    background: #e3acb6;
+}
+.w989 {
+    width: 989px;
+}
+.h1010 {
+    height: 1010px;
+}
+.w300 {
+    width: 300px;
+}
+.h500 {
+    height: 500px;
+}
+.w1300 {
+     width: 1300px;
+ }
+.h250 {
+    height: 250px;
+}
+.f-s {
+    font-size: 500%;
+}.t-w {
+     color: #050505;
+     text-align: center;
+ }
+
+.container, .container1, .container2, .container3 {
+
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    font-size: 500%;
+    margin-right: 10px;
+    justify-content: start;
+    align-items: center;
+
+}
+.container, .container1, .container2, .container3
+{
+    box-sizing: border-box;
+    color: aliceblue;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 500%;
+    justify-content: start;
+    align-items: center;
+}
