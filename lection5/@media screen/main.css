@@ -1,0 +1,37 @@
+h1 {
+    background: #82c9e7;
+    text-align: center;
+    margin: 0;
+    width: 1400px;
+}
+.card {
+    background: #105408;
+    max-width: 400px;
+    display: flex;
+}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+/*@media screen and (min-width: 576px) and (max-width: 768px) {}*/
+/*@media screen and (min-width: 768px) and (max-width: 992px) {}*/
+/*@media screen and (min-width: 992px) and (max-width: 1200px) {}*/
+/*@media screen and (min-width: 1200px) and (max-width: 1400px) {}*/
+
+    h1
+    {
+        background: #9f0522;
+        text-align: left;
+        display: block;
+    }
+img {
+    display: none;
+}
+}
+/* елемент a, span можна зробити блочним за допомогою { display: block}*/
+/*будь-який блочний елемент можна зробити строчним за допомогою div {display: inline}*/
+/*зовсім прибрати варіант img {display: none}*/
+
+@media screen and (min-width: 440px) and (max-width: 600px) {
+
+    body
+{
+    background: #e3acb6;
+}
