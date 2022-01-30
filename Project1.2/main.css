@@ -14,7 +14,7 @@ body {
     --black-color: #000;
 }
 
-.wrapper header_grid{
+.wrapper header {
     max-width: 1150px;
     margin: 0 auto;}
 
@@ -114,7 +114,7 @@ body {
     margin-left: 147px;
 }
 
-p1 {
+.main_content {
     font-size: 64px;
     line-height: 60px;
     /*margin-left: 147px;*/
@@ -126,15 +126,13 @@ p1 {
     padding-top: 164px;
 }
 
-p2 {font-size: 22px;
+.sec_content >p {font-size: 22px;
     line-height: 32px;
     box-sizing: border-box;
     text-align: justify;
     padding-right: 5px;
     width: 435px;
     height: 96px;
-    padding-top: 314px;
-    margin-top: 300px;
 }
 
 article {
@@ -172,8 +170,7 @@ article {
 aside {
     padding: 5px;
     position: absolute;
-    background: white;
-    background: url(.png)
+    background: none;
     position: absolute;
     width: 600px;
     height: 886px;
@@ -182,9 +179,9 @@ aside {
 
 .girl {
     position: absolute;
-    background: white;
     margin: 174px 0 221px -287px;
-    background: url(.png)
+    background-color: transparent;
+    /*background: url(.png)*/
 }
 .yellow{
     width: 744px;
@@ -209,10 +206,7 @@ aside {
     line-height: 48px;
     font-weight: normal;
     color:var(--black-color);
-    margin-top: 350px;
-    margin-right: 236px;
-    margin-left: 237px;
-    margin-bottom: -82px;
+    margin: 350px 236px -82px 237px;
     width: 547px;
     text-align: center;
     height: 300px;
@@ -227,15 +221,12 @@ aside {
 
 .block {
     display: flex;
-    margin-bottom: 20px;
+    margin: 185px 32px 20px 16px;
     /*width: 100%;*/
     width: 1356px;
     height: 494px;
     background: #51CEBC;
     border-radius: 10px;
-    margin-left: 16px;
-    margin-right: 32px;
-    margin-top: 185px;
     box-sizing: border-box;
     padding-bottom: 162px;
 }

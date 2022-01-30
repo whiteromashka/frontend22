@@ -226,15 +226,12 @@ aside {
 
 .block {
     display: flex;
-    margin-bottom: 20px;
     /*width: 100%;*/
     width: 1356px;
     height: 494px;
     background: #51CEBC;
     border-radius: 10px;
-    margin-left: 16px;
-    margin-right: 32px;
-    margin-top: 105px;
+    margin: 105px 32px 20px 16px ;
     box-sizing: border-box;
     padding-bottom: 162px;
 }
